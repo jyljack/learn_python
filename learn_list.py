@@ -11,9 +11,11 @@ print(subjectList)
 
 subjectList.remove(subjectList[2])
 print(subjectList)
+
 print("######################")
 for subject in subjectList:
     print(subject)
+
 print("######################")
 for index in range(len(subjectList)):
     print(subjectList[index])
